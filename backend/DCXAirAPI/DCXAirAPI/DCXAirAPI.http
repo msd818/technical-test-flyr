@@ -1,0 +1,6 @@
+@DCXAirAPI_HostAddress = http://localhost:5143
+
+GET {{DCXAirAPI_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###

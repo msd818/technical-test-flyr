@@ -1,0 +1,15 @@
+{
+  "version": 2,
+  "dgSpecHash": "8udh2ZLVEhUgxxAHNMyYemWUprPY0X7pguE+Y7ZlaJpEenExWVYb+HlRImvYq6MU+2XSJtNnV1pZl/YtTat40Q==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\Manuela Salazar\\source\\repos\\DCXAirAPI\\DCXAirAPI\\DCXAirAPI.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Manuela Salazar\\.nuget\\packages\\microsoft.extensions.apidescription.server\\6.0.5\\microsoft.extensions.apidescription.server.6.0.5.nupkg.sha512",
+    "C:\\Users\\Manuela Salazar\\.nuget\\packages\\microsoft.openapi\\1.2.3\\microsoft.openapi.1.2.3.nupkg.sha512",
+    "C:\\Users\\Manuela Salazar\\.nuget\\packages\\swashbuckle.aspnetcore\\6.4.0\\swashbuckle.aspnetcore.6.4.0.nupkg.sha512",
+    "C:\\Users\\Manuela Salazar\\.nuget\\packages\\swashbuckle.aspnetcore.swagger\\6.4.0\\swashbuckle.aspnetcore.swagger.6.4.0.nupkg.sha512",
+    "C:\\Users\\Manuela Salazar\\.nuget\\packages\\swashbuckle.aspnetcore.swaggergen\\6.4.0\\swashbuckle.aspnetcore.swaggergen.6.4.0.nupkg.sha512",
+    "C:\\Users\\Manuela Salazar\\.nuget\\packages\\swashbuckle.aspnetcore.swaggerui\\6.4.0\\swashbuckle.aspnetcore.swaggerui.6.4.0.nupkg.sha512"
+  ],
+  "logs": []
+}
