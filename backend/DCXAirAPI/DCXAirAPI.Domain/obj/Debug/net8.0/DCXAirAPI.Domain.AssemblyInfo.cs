@@ -11,12 +11,12 @@
 using System;
 using System.Reflection;
 
-[assembly: System.Reflection.AssemblyCompanyAttribute("DCXAirAPI")]
+[assembly: System.Reflection.AssemblyCompanyAttribute("DCXAirAPI.Domain")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
 [assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+17ace278fca07f693484b16924cc58f5f655ce8c")]
-[assembly: System.Reflection.AssemblyProductAttribute("DCXAirAPI")]
-[assembly: System.Reflection.AssemblyTitleAttribute("DCXAirAPI")]
+[assembly: System.Reflection.AssemblyProductAttribute("DCXAirAPI.Domain")]
+[assembly: System.Reflection.AssemblyTitleAttribute("DCXAirAPI.Domain")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
 
 // Generado por la clase WriteCodeFragment de MSBuild.
