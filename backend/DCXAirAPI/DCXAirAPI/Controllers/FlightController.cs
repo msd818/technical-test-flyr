@@ -37,7 +37,7 @@ namespace DcxAirAPI.Controllers
         }
 
         [HttpGet("searchFlights")]
-        public async Task<ActionResult<ResponseDTO>> SearchFlights(string origin, string destination, string currency)
+        public async Task<ActionResult<ResponseDTO>> SearchFlights(string origin, string destination, string currency, string typeJourney)
         {
             if (string.IsNullOrEmpty(origin) || string.IsNullOrEmpty(destination))
             {
@@ -49,6 +49,7 @@ namespace DcxAirAPI.Controllers
                 { "origin", origin },
                 { "destination", destination },
                 { "currency", currency },
+                { "typeJourney", typeJourney },
             };
 
             var response = await _flightApplication.GetJourney(data);

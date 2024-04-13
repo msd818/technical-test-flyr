@@ -41,6 +41,11 @@
         "Name": "currency",
         "Type": "System.String",
         "IsRequired": false
+      },
+      {
+        "Name": "typeJourney",
+        "Type": "System.String",
+        "IsRequired": false
       }
     ],
     "ReturnTypes": [

@@ -5,6 +5,10 @@
     {
       "AbsoluteMoniker": "D:0:0:{E91F1F15-8DEB-4534-8E33-643D9C01C256}|DcxAirAPI.Application\\DcxAirAPI.Application.csproj|c:\\users\\manuela salazar\\desktop\\manuela\\prueba tecnica\\technical-test-flyr\\backend\\dcxairapi\\dcxairapi.application\\flight\\logic\\flightapplication.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{E91F1F15-8DEB-4534-8E33-643D9C01C256}|DcxAirAPI.Application\\DcxAirAPI.Application.csproj|solutionrelative:dcxairapi.application\\flight\\logic\\flightapplication.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{64A0EE1E-3B96-4B73-AE5D-B7FBBCE12D71}|DcxAirAPI\\DcxAirAPI.csproj|c:\\users\\manuela salazar\\desktop\\manuela\\prueba tecnica\\technical-test-flyr\\backend\\dcxairapi\\dcxairapi\\controllers\\flightcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{64A0EE1E-3B96-4B73-AE5D-B7FBBCE12D71}|DcxAirAPI\\DcxAirAPI.csproj|solutionrelative:dcxairapi\\controllers\\flightcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -14,11 +18,24 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "FlightController.cs",
+              "DocumentMoniker": "C:\\Users\\Manuela Salazar\\Desktop\\Manuela\\prueba tecnica\\technical-test-flyr\\backend\\DcxAirAPI\\DcxAirAPI\\Controllers\\FlightController.cs",
+              "RelativeDocumentMoniker": "DcxAirAPI\\Controllers\\FlightController.cs",
+              "ToolTip": "C:\\Users\\Manuela Salazar\\Desktop\\Manuela\\prueba tecnica\\technical-test-flyr\\backend\\DcxAirAPI\\DcxAirAPI\\Controllers\\FlightController.cs",
+              "RelativeToolTip": "DcxAirAPI\\Controllers\\FlightController.cs",
+              "ViewState": "AQIAABYAAAAAAAAAAAAAAC0AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-13T06:55:42.255Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -28,7 +45,7 @@
               "RelativeDocumentMoniker": "DcxAirAPI.Application\\Flight\\Logic\\FlightApplication.cs",
               "ToolTip": "C:\\Users\\Manuela Salazar\\Desktop\\Manuela\\prueba tecnica\\technical-test-flyr\\backend\\DcxAirAPI\\DcxAirAPI.Application\\Flight\\Logic\\FlightApplication.cs",
               "RelativeToolTip": "DcxAirAPI.Application\\Flight\\Logic\\FlightApplication.cs",
-              "ViewState": "AQIAACMAAAAAAAAAAAAqwCoAAAAdAAAA",
+              "ViewState": "AQIAAIkAAAAAAAAAAAAcwJYAAAAiAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-04-13T05:50:06.945Z",
               "EditorCaption": ""

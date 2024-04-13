@@ -55,7 +55,7 @@ namespace DcxAirAPI.Application.Flight.Contracts
             {
                 var allFlights = JsonFileReader.Instance.Flights;
 
-                var journeys = SearchFlights(data["origin"], data["destination"], new List<FlightJson>(), new List<List<FlightJson>>(), new List<string>(), new List<string>(), value);
+                var journeys = SearchFlights(data["origin"], data["destination"], new List<FlightJson>(), new List<List<FlightJson>>(), new List<string>(), new List<string>(), value, data["typeJourney"]);
 
                 response.Data = journeys;
                 response.ResponseFlag = true;
@@ -73,17 +73,33 @@ namespace DcxAirAPI.Application.Flight.Contracts
         {
             foreach (var item in flights)
             {
-                item.Price= item.Price* currencyValue;
+                item.Price = item.Price * currencyValue;
             }
             return flights;
         }
 
-        private List<List<FlightJson>> SearchFlights(string origin, string destination, List<FlightJson> route, List<List<FlightJson>> result, List<string> flightVisited, List<string> locationVisited, double currencyValue)
+        private List<List<FlightJson>> SearchFlights(string origin, string destination, List<FlightJson> route, List<List<FlightJson>> result, List<string> flightVisited, List<string> locationVisited, double currencyValue, string typeJourney)
         {
             var allFlights = JsonFileReader.Instance.Flights;
 
             CalculateTotal(allFlights, currencyValue);
 
+            if (typeJourney != "oneway")
+            {
+                SearchFlightsHelper(origin, destination, route, result, flightVisited, locationVisited, currencyValue);
+                SearchFlightsHelper(destination, origin, route, result, flightVisited, locationVisited, currencyValue);
+            }
+            else
+            {
+                SearchFlightsHelper(origin, destination, route, result, flightVisited, locationVisited, currencyValue);
+            }
+
+            return result;
+        }
+
+        private void SearchFlightsHelper(string origin, string destination, List<FlightJson> route, List<List<FlightJson>> result, List<string> flightVisited, List<string> locationVisited, double currencyValue)
+        {
+            var allFlights = JsonFileReader.Instance.Flights;
 
             var routes = allFlights.Where(item => item.Origin == origin).ToList();
 
@@ -104,11 +120,12 @@ namespace DcxAirAPI.Application.Flight.Contracts
                     tempVisited.Add(item.Origin);
                     var tempFlight = flightVisited.ToList();
                     tempFlight.Add(item.Transport.FlightNumber);
-                    SearchFlights(item.Destination, destination, tempArr, result, tempFlight, tempVisited, currencyValue);
+                    SearchFlightsHelper(item.Destination, destination, tempArr, result, tempFlight, tempVisited, currencyValue);
                 }
             }
-            return result;
         }
+
+
     }
 }
 
