@@ -1,0 +1,16 @@
+C:\Users\Manuela Salazar\Desktop\Manuela\prueba tecnica\technical-test-flyr\backend\DcxAirAPI\DcxAirAPI.Infrastructure\obj\Debug\net8.0\DcxAirAPI.Infrastructure.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Manuela Salazar\Desktop\Manuela\prueba tecnica\technical-test-flyr\backend\DcxAirAPI\DcxAirAPI.Infrastructure\obj\Debug\net8.0\DcxAirAPI.Infrastructure.AssemblyInfoInputs.cache
+C:\Users\Manuela Salazar\Desktop\Manuela\prueba tecnica\technical-test-flyr\backend\DcxAirAPI\DcxAirAPI.Infrastructure\obj\Debug\net8.0\DcxAirAPI.Infrastructure.AssemblyInfo.cs
+C:\Users\Manuela Salazar\Desktop\Manuela\prueba tecnica\technical-test-flyr\backend\DcxAirAPI\DcxAirAPI.Infrastructure\obj\Debug\net8.0\DcxAirAPI.Infrastructure.csproj.CoreCompileInputs.cache
+C:\Users\Manuela Salazar\Desktop\Manuela\prueba tecnica\technical-test-flyr\backend\DcxAirAPI\DcxAirAPI.Infrastructure\obj\Debug\net8.0\DcxAirAPI.Infrastructure.sourcelink.json
+C:\Users\Manuela Salazar\Desktop\Manuela\prueba tecnica\technical-test-flyr\backend\DcxAirAPI\DcxAirAPI.Infrastructure\bin\Debug\net8.0\DcxAirAPI.Infrastructure.deps.json
+C:\Users\Manuela Salazar\Desktop\Manuela\prueba tecnica\technical-test-flyr\backend\DcxAirAPI\DcxAirAPI.Infrastructure\bin\Debug\net8.0\DcxAirAPI.Infrastructure.dll
+C:\Users\Manuela Salazar\Desktop\Manuela\prueba tecnica\technical-test-flyr\backend\DcxAirAPI\DcxAirAPI.Infrastructure\bin\Debug\net8.0\DcxAirAPI.Infrastructure.pdb
+C:\Users\Manuela Salazar\Desktop\Manuela\prueba tecnica\technical-test-flyr\backend\DcxAirAPI\DcxAirAPI.Infrastructure\bin\Debug\net8.0\DcxAirAPI.Domain.dll
+C:\Users\Manuela Salazar\Desktop\Manuela\prueba tecnica\technical-test-flyr\backend\DcxAirAPI\DcxAirAPI.Infrastructure\bin\Debug\net8.0\DcxAirAPI.Domain.pdb
+C:\Users\Manuela Salazar\Desktop\Manuela\prueba tecnica\technical-test-flyr\backend\DcxAirAPI\DcxAirAPI.Infrastructure\obj\Debug\net8.0\DcxAirAPI.Infrastructure.csproj.AssemblyReference.cache
+C:\Users\Manuela Salazar\Desktop\Manuela\prueba tecnica\technical-test-flyr\backend\DcxAirAPI\DcxAirAPI.Infrastructure\obj\Debug\net8.0\DcxAirAP.D0CA4260.Up2Date
+C:\Users\Manuela Salazar\Desktop\Manuela\prueba tecnica\technical-test-flyr\backend\DcxAirAPI\DcxAirAPI.Infrastructure\obj\Debug\net8.0\DcxAirAPI.Infrastructure.dll
+C:\Users\Manuela Salazar\Desktop\Manuela\prueba tecnica\technical-test-flyr\backend\DcxAirAPI\DcxAirAPI.Infrastructure\obj\Debug\net8.0\refint\DcxAirAPI.Infrastructure.dll
+C:\Users\Manuela Salazar\Desktop\Manuela\prueba tecnica\technical-test-flyr\backend\DcxAirAPI\DcxAirAPI.Infrastructure\obj\Debug\net8.0\DcxAirAPI.Infrastructure.pdb
+C:\Users\Manuela Salazar\Desktop\Manuela\prueba tecnica\technical-test-flyr\backend\DcxAirAPI\DcxAirAPI.Infrastructure\obj\Debug\net8.0\ref\DcxAirAPI.Infrastructure.dll

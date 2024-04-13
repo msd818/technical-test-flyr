@@ -1,11 +1,12 @@
 {
   "version": 2,
-  "dgSpecHash": "NrZnprfgnCCMadvilJPGirEkkLu2+BG1Xf5HS87HRUnqVLT+2cfRrcPR0bDGZ/cLdiKdkoAJnD9SlSRYFpsTOQ==",
+  "dgSpecHash": "dikufOBtBWshgZ2oJ7sewl9F5x5mGg4dUnhrFf0UGMStSC3PIKT122p/2iUObo/tkkapwbaYtlBvyKDymG+iig==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Manuela Salazar\\Desktop\\Manuela\\prueba tecnica\\technical-test-flyr\\backend\\DCXAirAPI\\DCXAirAPI\\DCXAirAPI.csproj",
+  "projectFilePath": "C:\\Users\\Manuela Salazar\\Desktop\\Manuela\\prueba tecnica\\technical-test-flyr\\backend\\DcxAirAPI\\DcxAirAPI\\DcxAirAPI.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Manuela Salazar\\.nuget\\packages\\microsoft.extensions.apidescription.server\\6.0.5\\microsoft.extensions.apidescription.server.6.0.5.nupkg.sha512",
     "C:\\Users\\Manuela Salazar\\.nuget\\packages\\microsoft.openapi\\1.2.3\\microsoft.openapi.1.2.3.nupkg.sha512",
+    "C:\\Users\\Manuela Salazar\\.nuget\\packages\\newtonsoft.json\\13.0.3\\newtonsoft.json.13.0.3.nupkg.sha512",
     "C:\\Users\\Manuela Salazar\\.nuget\\packages\\swashbuckle.aspnetcore\\6.4.0\\swashbuckle.aspnetcore.6.4.0.nupkg.sha512",
     "C:\\Users\\Manuela Salazar\\.nuget\\packages\\swashbuckle.aspnetcore.swagger\\6.4.0\\swashbuckle.aspnetcore.swagger.6.4.0.nupkg.sha512",
     "C:\\Users\\Manuela Salazar\\.nuget\\packages\\swashbuckle.aspnetcore.swaggergen\\6.4.0\\swashbuckle.aspnetcore.swaggergen.6.4.0.nupkg.sha512",

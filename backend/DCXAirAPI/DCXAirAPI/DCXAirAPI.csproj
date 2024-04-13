@@ -10,4 +10,10 @@
     <PackageReference Include="Swashbuckle.AspNetCore" Version="6.4.0" />
   </ItemGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\DcxAirAPI.Application\DcxAirAPI.Application.csproj" />
+    <ProjectReference Include="..\DcxAirAPI.Domain\DcxAirAPI.Domain.csproj" />
+    <ProjectReference Include="..\DcxAirAPI.Infrastructure\DcxAirAPI.Infrastructure.csproj" />
+  </ItemGroup>
+
 </Project>

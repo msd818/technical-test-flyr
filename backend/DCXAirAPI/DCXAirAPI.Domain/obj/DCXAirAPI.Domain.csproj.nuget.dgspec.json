@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Manuela Salazar\\Desktop\\Manuela\\prueba tecnica\\technical-test-flyr\\backend\\DCXAirAPI\\DCXAirAPI.Domain\\DCXAirAPI.Domain.csproj": {}
+    "C:\\Users\\Manuela Salazar\\Desktop\\Manuela\\prueba tecnica\\technical-test-flyr\\backend\\DcxAirAPI\\DcxAirAPI.Domain\\DcxAirAPI.Domain.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Manuela Salazar\\Desktop\\Manuela\\prueba tecnica\\technical-test-flyr\\backend\\DCXAirAPI\\DCXAirAPI.Domain\\DCXAirAPI.Domain.csproj": {
+    "C:\\Users\\Manuela Salazar\\Desktop\\Manuela\\prueba tecnica\\technical-test-flyr\\backend\\DcxAirAPI\\DcxAirAPI.Domain\\DcxAirAPI.Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Manuela Salazar\\Desktop\\Manuela\\prueba tecnica\\technical-test-flyr\\backend\\DCXAirAPI\\DCXAirAPI.Domain\\DCXAirAPI.Domain.csproj",
-        "projectName": "DCXAirAPI.Domain",
-        "projectPath": "C:\\Users\\Manuela Salazar\\Desktop\\Manuela\\prueba tecnica\\technical-test-flyr\\backend\\DCXAirAPI\\DCXAirAPI.Domain\\DCXAirAPI.Domain.csproj",
+        "projectUniqueName": "C:\\Users\\Manuela Salazar\\Desktop\\Manuela\\prueba tecnica\\technical-test-flyr\\backend\\DcxAirAPI\\DcxAirAPI.Domain\\DcxAirAPI.Domain.csproj",
+        "projectName": "DcxAirAPI.Domain",
+        "projectPath": "C:\\Users\\Manuela Salazar\\Desktop\\Manuela\\prueba tecnica\\technical-test-flyr\\backend\\DcxAirAPI\\DcxAirAPI.Domain\\DcxAirAPI.Domain.csproj",
         "packagesPath": "C:\\Users\\Manuela Salazar\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Manuela Salazar\\Desktop\\Manuela\\prueba tecnica\\technical-test-flyr\\backend\\DCXAirAPI\\DCXAirAPI.Domain\\obj\\",
+        "outputPath": "C:\\Users\\Manuela Salazar\\Desktop\\Manuela\\prueba tecnica\\technical-test-flyr\\backend\\DcxAirAPI\\DcxAirAPI.Domain\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
