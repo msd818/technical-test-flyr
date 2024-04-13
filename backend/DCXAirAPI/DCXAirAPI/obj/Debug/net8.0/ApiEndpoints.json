@@ -1,7 +1,7 @@
 [
   {
     "ContainingType": "DcxAirAPI.Controllers.FlightController",
-    "Method": "listFlight",
+    "Method": "ListFlight",
     "RelativePath": "api/Flight/listFlight",
     "HttpMethod": "GET",
     "IsController": true,
@@ -22,7 +22,7 @@
   {
     "ContainingType": "DcxAirAPI.Controllers.FlightController",
     "Method": "SearchFlights",
-    "RelativePath": "api/Flight/SearchFlights",
+    "RelativePath": "api/Flight/searchFlights",
     "HttpMethod": "GET",
     "IsController": true,
     "Order": 0,

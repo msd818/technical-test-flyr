@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("DcxAirAPI")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+de448939ac19b15f8cc15b1de8efb5f094db26ee")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+4b0785ad06cbc13cae5fc87b42b4330ecd27903a")]
 [assembly: System.Reflection.AssemblyProductAttribute("DcxAirAPI")]
 [assembly: System.Reflection.AssemblyTitleAttribute("DcxAirAPI")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

@@ -6,6 +6,7 @@ using System.Text;
 using System.Threading.Tasks;
 using DcxAirAPI.Infrastructure.Data;
 using System.Net.Http.Json;
+using Newtonsoft.Json.Linq;
 
 namespace DcxAirAPI.Application.Flight.Contracts
 {
@@ -39,6 +40,7 @@ namespace DcxAirAPI.Application.Flight.Contracts
             double value = currency switch
             {
                 "usd" => 1,
+                "cop" => 3859,
                 "eur" => 0.91,
                 _ => 4708
             };
@@ -53,7 +55,7 @@ namespace DcxAirAPI.Application.Flight.Contracts
             {
                 var allFlights = JsonFileReader.Instance.Flights;
 
-                var journeys = SearchFlights(data["origin"], data["destination"], new List<FlightJson>(), new List<List<FlightJson>>(), new List<string>(), new List<string>());
+                var journeys = SearchFlights(data["origin"], data["destination"], new List<FlightJson>(), new List<List<FlightJson>>(), new List<string>(), new List<string>(), value);
 
                 response.Data = journeys;
                 response.ResponseFlag = true;
@@ -67,14 +69,22 @@ namespace DcxAirAPI.Application.Flight.Contracts
             }
         }
 
-        private double CalculateTotal(List<FlightJson> flights)
+        private List<FlightJson> CalculateTotal(List<FlightJson> flights, double currencyValue)
         {
-            return flights.Sum(flight => flight.Price);
+            foreach (var item in flights)
+            {
+                item.Price= item.Price* currencyValue;
+            }
+            return flights;
         }
 
-        private List<List<FlightJson>> SearchFlights(string origin, string destination, List<FlightJson> route, List<List<FlightJson>> result, List<string> flightVisited, List<string> locationVisited)
+        private List<List<FlightJson>> SearchFlights(string origin, string destination, List<FlightJson> route, List<List<FlightJson>> result, List<string> flightVisited, List<string> locationVisited, double currencyValue)
         {
             var allFlights = JsonFileReader.Instance.Flights;
+
+            CalculateTotal(allFlights, currencyValue);
+
+
             var routes = allFlights.Where(item => item.Origin == origin).ToList();
 
             foreach (var item in routes)
@@ -94,7 +104,7 @@ namespace DcxAirAPI.Application.Flight.Contracts
                     tempVisited.Add(item.Origin);
                     var tempFlight = flightVisited.ToList();
                     tempFlight.Add(item.Transport.FlightNumber);
-                    SearchFlights(item.Destination, destination, tempArr, result, tempFlight, tempVisited);
+                    SearchFlights(item.Destination, destination, tempArr, result, tempFlight, tempVisited, currencyValue);
                 }
             }
             return result;
