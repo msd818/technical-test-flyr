@@ -1,0 +1,94 @@
+.background {
+    width: 100%;
+    height: 100%;
+}
+
+.header {
+    width: 100%;
+    height: 10%;
+}
+
+mat-toolbar {
+    color: white;
+    background-image: linear-gradient(135deg, #ffa61b 0, #ff9332 10%, #ff7e42 20%, #ff684d 30%, #ff5154 40%, #ff3858 50%, #e41f59 60%, #cb015b 70%, #b5005d 80%, #a2005f 90%, #900063 100%);
+}
+
+.title {
+    padding: 2%;
+    font-size: 1.2rem;
+}
+
+.content {
+    width: 100%;
+    height: 90%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.selects {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+mat-form-field {
+    margin: 0% 1%;
+}
+
+.condicionals {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.typeJourney {
+    width: 51%;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+}
+
+.currency {
+    width: 50%;
+    padding: 1%;
+}
+
+.search button{
+    background-image: linear-gradient(135deg, #ffa61b 0, #ff9332 10%, #ff7e42 20%, #ff684d 30%, #ff5154 40%, #ff3858 50%, #e41f59 60%, #cb015b 70%, #b5005d 80%, #a2005f 90%, #900063 100%);
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border: solid 1px white;
+    border-radius: 10px;
+    font-size: 1rem;
+    cursor: pointer;
+}
+
+.search button:hover{
+    background-image: none;
+    color: #ff3858;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 10px;
+    border: solid 1px #ff3858;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.response{
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.container-cards{
+    width: 13%;
+    margin: 1%;
+}

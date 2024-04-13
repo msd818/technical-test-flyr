@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "fWtvRHW61JELQS+ZYzfX/E4sevz4Ep7SeuXBrbz2xXFtNWxk01A/k2slzAvVNuX9kvT0VGBorKErXkoHciwzzQ==",
+  "dgSpecHash": "wl1JekL5pTlA0CAobRC8ud2eFb5CgN2tIEddkMNAeC1Llv+HYQ52JMxt7sbu6HZ1ioE6lVCxp5wkKOr6IL6KpA==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Manuela Salazar\\Desktop\\Manuela\\prueba tecnica\\technical-test-flyr\\backend\\DcxAirAPI\\DcxAirAPI.Infrastructure\\DcxAirAPI.Infrastructure.csproj",
+  "projectFilePath": "C:\\Users\\Manuela Salazar\\Desktop\\Manuela\\prueba tecnica\\technical-test-flyr\\backend\\DCXAirAPI\\DcxAirAPI.Infrastructure\\DcxAirAPI.Infrastructure.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Manuela Salazar\\.nuget\\packages\\newtonsoft.json\\13.0.3\\newtonsoft.json.13.0.3.nupkg.sha512"
   ],

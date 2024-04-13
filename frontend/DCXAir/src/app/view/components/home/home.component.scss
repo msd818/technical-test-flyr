@@ -1,0 +1,41 @@
+.background {
+    width: 100%;
+    height: 100%;
+    background-image: linear-gradient(135deg, #ffa61b 0, #ff9332 10%, #ff7e42 20%, #ff684d 30%, #ff5154 40%, #ff3858 50%, #e41f59 60%, #cb015b 70%, #b5005d 80%, #a2005f 90%, #900063 100%);
+}
+
+.content{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: 8rem;
+    font-weight: bold;
+}
+
+.content button{
+    background-color: white;
+    border-radius: 10px;
+    border: solid 1px white;
+    width: 15%;
+    padding: 2%;
+    color: #ff3858;
+    font-size: 1rem;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.content button:hover{
+    background-color: transparent;
+    border-radius: 10px;
+    border: solid 1px white;
+    width: 15%;
+    padding: 2%;
+    color: white;
+    font-size: 1rem;
+    font-weight: bold;
+}
+

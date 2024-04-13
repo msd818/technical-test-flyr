@@ -1,15 +1,15 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Manuela Salazar\\Desktop\\Manuela\\prueba tecnica\\technical-test-flyr\\backend\\DcxAirAPI\\DcxAirAPI.Domain\\DcxAirAPI.Domain.csproj": {}
+    "C:\\Users\\Manuela Salazar\\Desktop\\Manuela\\prueba tecnica\\technical-test-flyr\\backend\\DCXAirAPI\\DcxAirAPI.Domain\\DcxAirAPI.Domain.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Manuela Salazar\\Desktop\\Manuela\\prueba tecnica\\technical-test-flyr\\backend\\DcxAirAPI\\DcxAirAPI.Domain\\DcxAirAPI.Domain.csproj": {
+    "C:\\Users\\Manuela Salazar\\Desktop\\Manuela\\prueba tecnica\\technical-test-flyr\\backend\\DCXAirAPI\\DcxAirAPI.Domain\\DcxAirAPI.Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Manuela Salazar\\Desktop\\Manuela\\prueba tecnica\\technical-test-flyr\\backend\\DcxAirAPI\\DcxAirAPI.Domain\\DcxAirAPI.Domain.csproj",
+        "projectUniqueName": "C:\\Users\\Manuela Salazar\\Desktop\\Manuela\\prueba tecnica\\technical-test-flyr\\backend\\DCXAirAPI\\DcxAirAPI.Domain\\DcxAirAPI.Domain.csproj",
         "projectName": "DcxAirAPI.Domain",
-        "projectPath": "C:\\Users\\Manuela Salazar\\Desktop\\Manuela\\prueba tecnica\\technical-test-flyr\\backend\\DcxAirAPI\\DcxAirAPI.Domain\\DcxAirAPI.Domain.csproj",
+        "projectPath": "C:\\Users\\Manuela Salazar\\Desktop\\Manuela\\prueba tecnica\\technical-test-flyr\\backend\\DCXAirAPI\\DcxAirAPI.Domain\\DcxAirAPI.Domain.csproj",
         "packagesPath": "C:\\Users\\Manuela Salazar\\.nuget\\packages\\",
         "outputPath": "C:\\Users\\Manuela Salazar\\Desktop\\Manuela\\prueba tecnica\\technical-test-flyr\\backend\\DcxAirAPI\\DcxAirAPI.Domain\\obj\\",
         "projectStyle": "PackageReference",

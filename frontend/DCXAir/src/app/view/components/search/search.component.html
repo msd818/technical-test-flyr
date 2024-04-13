@@ -1,0 +1,75 @@
+<div class="background">
+    <div class="header">
+        <mat-toolbar>
+            {{ title }}
+        </mat-toolbar>
+    </div>
+    <div class="content">
+        <div class="title">
+            ¿A dónde quieres volar?
+        </div>
+        <form [formGroup]="searchForm">
+            <div class="selects">
+                <mat-form-field>
+                    <mat-label>Origen</mat-label>
+                    <mat-select formControlName="origin">
+                        <mat-option *ngFor="let airport of airports"
+                            [value]="airport.value">{{airport.value}}</mat-option>
+                    </mat-select>
+                </mat-form-field>
+                <mat-form-field>
+                    <mat-label>Destino</mat-label>
+                    <mat-select formControlName="destination">
+                        <mat-option *ngFor="let airport of airports"
+                            [value]="airport.value">{{airport.value}}</mat-option>
+                    </mat-select>
+                </mat-form-field>
+            </div>
+            <div class="condicionals">
+                <div class="typeJourney">
+                    <mat-radio-group aria-label="Select an option" formControlName="typeJourney">
+                        <mat-radio-button value="oneway">Solo ida</mat-radio-button>
+                        <mat-radio-button value="round_trip">Ida y vuelta</mat-radio-button>
+                    </mat-radio-group>
+                </div>
+                <div class="currency">
+                    <mat-form-field>
+                        <mat-label>Moneda</mat-label>
+                        <mat-select formControlName="currency">
+                            <mat-option *ngFor="let curr of currency" [value]="curr.value">{{curr.text}}</mat-option>
+                        </mat-select>
+                    </mat-form-field>
+                </div>
+            </div>
+        </form>
+
+        <div class="search">
+            <button (click)="search()">Buscar</button>
+        </div>
+
+        <div class="response">
+            <div class="container-cards" *ngFor="let search of searchResponse">
+                <ng-container *ngIf="search.length > 1">
+                    <mat-card>
+                        <mat-card-content>
+                            <div *ngFor="let item of search">
+                                <p>{{ item.origin }} - {{ item.destination }}</p>
+                                <p>Precio: {{ item.price }}</p>
+                                <p>Vuelo: {{ item.transport.flightCarrier }} {{ item.transport.flightNumber }}</p>
+                            </div>
+                        </mat-card-content>
+                    </mat-card>
+                </ng-container>
+                <ng-container *ngIf="search.length === 1">
+                    <mat-card>
+                        <mat-card-content>
+                            <p>{{ search[0].origin }} - {{ search[0].destination }}</p>
+                            <p>Precio: {{ search[0].price }}</p>
+                            <p>Vuelo: {{ search[0].transport.flightCarrier }} {{ search[0].transport.flightNumber }}</p>
+                        </mat-card-content>
+                    </mat-card>
+                </ng-container>
+            </div>
+        </div>
+    </div>
+</div>
