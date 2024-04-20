@@ -3,20 +3,24 @@
   "WorkspaceRootPath": "C:\\Users\\Manuela Salazar\\Desktop\\Manuela\\prueba tecnica\\technical-test-flyr\\backend\\DcxAirAPI\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{64A0EE1E-3B96-4B73-AE5D-B7FBBCE12D71}|DcxAirAPI\\DcxAirAPI.csproj|c:\\users\\manuela salazar\\desktop\\manuela\\prueba tecnica\\technical-test-flyr\\backend\\dcxairapi\\dcxairapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{64A0EE1E-3B96-4B73-AE5D-B7FBBCE12D71}|DcxAirAPI\\DcxAirAPI.csproj|solutionrelative:dcxairapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{64A0EE1E-3B96-4B73-AE5D-B7FBBCE12D71}|DcxAirAPI\\DcxAirAPI.csproj|c:\\users\\manuela salazar\\desktop\\manuela\\prueba tecnica\\technical-test-flyr\\backend\\dcxairapi\\dcxairapi\\extensions\\servicesextension.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{64A0EE1E-3B96-4B73-AE5D-B7FBBCE12D71}|DcxAirAPI\\DcxAirAPI.csproj|solutionrelative:dcxairapi\\extensions\\servicesextension.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{B54C38EB-0475-4A5E-8A53-BEDF2D808EEF}|DcxAirAPI.Domain\\DcxAirAPI.Domain.csproj|c:\\users\\manuela salazar\\desktop\\manuela\\prueba tecnica\\technical-test-flyr\\backend\\dcxairapi\\dcxairapi.domain\\common\\dtos\\errorresponsedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B54C38EB-0475-4A5E-8A53-BEDF2D808EEF}|DcxAirAPI.Domain\\DcxAirAPI.Domain.csproj|solutionrelative:dcxairapi.domain\\common\\dtos\\errorresponsedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{64A0EE1E-3B96-4B73-AE5D-B7FBBCE12D71}|DcxAirAPI\\DcxAirAPI.csproj|c:\\users\\manuela salazar\\desktop\\manuela\\prueba tecnica\\technical-test-flyr\\backend\\dcxairapi\\dcxairapi\\controllers\\flightcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{64A0EE1E-3B96-4B73-AE5D-B7FBBCE12D71}|DcxAirAPI\\DcxAirAPI.csproj|solutionrelative:dcxairapi\\controllers\\flightcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{E91F1F15-8DEB-4534-8E33-643D9C01C256}|DcxAirAPI.Application\\DcxAirAPI.Application.csproj|c:\\users\\manuela salazar\\desktop\\manuela\\prueba tecnica\\technical-test-flyr\\backend\\dcxairapi\\dcxairapi.application\\flight\\logic\\flightapplication.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E91F1F15-8DEB-4534-8E33-643D9C01C256}|DcxAirAPI.Application\\DcxAirAPI.Application.csproj|solutionrelative:dcxairapi.application\\flight\\logic\\flightapplication.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{B54C38EB-0475-4A5E-8A53-BEDF2D808EEF}|DcxAirAPI.Domain\\DcxAirAPI.Domain.csproj|c:\\users\\manuela salazar\\desktop\\manuela\\prueba tecnica\\technical-test-flyr\\backend\\dcxairapi\\dcxairapi.domain\\common\\dtos\\responsebase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B54C38EB-0475-4A5E-8A53-BEDF2D808EEF}|DcxAirAPI.Domain\\DcxAirAPI.Domain.csproj|solutionrelative:dcxairapi.domain\\common\\dtos\\responsebase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B54C38EB-0475-4A5E-8A53-BEDF2D808EEF}|DcxAirAPI.Domain\\DcxAirAPI.Domain.csproj|c:\\users\\manuela salazar\\desktop\\manuela\\prueba tecnica\\technical-test-flyr\\backend\\dcxairapi\\dcxairapi.domain\\common\\dtos\\errordto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B54C38EB-0475-4A5E-8A53-BEDF2D808EEF}|DcxAirAPI.Domain\\DcxAirAPI.Domain.csproj|solutionrelative:dcxairapi.domain\\common\\dtos\\errordto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B54C38EB-0475-4A5E-8A53-BEDF2D808EEF}|DcxAirAPI.Domain\\DcxAirAPI.Domain.csproj|c:\\users\\manuela salazar\\desktop\\manuela\\prueba tecnica\\technical-test-flyr\\backend\\dcxairapi\\dcxairapi.domain\\common\\dtos\\responsedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B54C38EB-0475-4A5E-8A53-BEDF2D808EEF}|DcxAirAPI.Domain\\DcxAirAPI.Domain.csproj|solutionrelative:dcxairapi.domain\\common\\dtos\\responsedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -26,7 +30,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 4,
           "Children": [
             {
               "$type": "Bookmark",
@@ -35,53 +39,66 @@
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "ServicesExtension.cs",
-              "DocumentMoniker": "C:\\Users\\Manuela Salazar\\Desktop\\Manuela\\prueba tecnica\\technical-test-flyr\\backend\\DcxAirAPI\\DcxAirAPI\\Extensions\\ServicesExtension.cs",
-              "RelativeDocumentMoniker": "DcxAirAPI\\Extensions\\ServicesExtension.cs",
-              "ToolTip": "C:\\Users\\Manuela Salazar\\Desktop\\Manuela\\prueba tecnica\\technical-test-flyr\\backend\\DcxAirAPI\\DcxAirAPI\\Extensions\\ServicesExtension.cs",
-              "RelativeToolTip": "DcxAirAPI\\Extensions\\ServicesExtension.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-13T18:48:48.646Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\Manuela Salazar\\Desktop\\Manuela\\prueba tecnica\\technical-test-flyr\\backend\\DcxAirAPI\\DcxAirAPI\\Program.cs",
-              "RelativeDocumentMoniker": "DcxAirAPI\\Program.cs",
-              "ToolTip": "C:\\Users\\Manuela Salazar\\Desktop\\Manuela\\prueba tecnica\\technical-test-flyr\\backend\\DcxAirAPI\\DcxAirAPI\\Program.cs",
-              "RelativeToolTip": "DcxAirAPI\\Program.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-13T18:45:12.626Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
               "Title": "FlightController.cs",
               "DocumentMoniker": "C:\\Users\\Manuela Salazar\\Desktop\\Manuela\\prueba tecnica\\technical-test-flyr\\backend\\DcxAirAPI\\DcxAirAPI\\Controllers\\FlightController.cs",
               "RelativeDocumentMoniker": "DcxAirAPI\\Controllers\\FlightController.cs",
               "ToolTip": "C:\\Users\\Manuela Salazar\\Desktop\\Manuela\\prueba tecnica\\technical-test-flyr\\backend\\DcxAirAPI\\DcxAirAPI\\Controllers\\FlightController.cs",
               "RelativeToolTip": "DcxAirAPI\\Controllers\\FlightController.cs",
-              "ViewState": "AQIAACIAAAAAAAAAAAAqwCsAAAAeAAAA",
+              "ViewState": "AQIAAFEAAAAAAAAAAAAAAF0AAAAmAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-13T18:20:36.008Z",
+              "WhenOpened": "2024-04-20T05:05:02.911Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "ResponseDTO.cs",
+              "DocumentMoniker": "C:\\Users\\Manuela Salazar\\Desktop\\Manuela\\prueba tecnica\\technical-test-flyr\\backend\\DcxAirAPI\\DcxAirAPI.Domain\\Common\\DTOs\\ResponseDTO.cs",
+              "RelativeDocumentMoniker": "DcxAirAPI.Domain\\Common\\DTOs\\ResponseDTO.cs",
+              "ToolTip": "C:\\Users\\Manuela Salazar\\Desktop\\Manuela\\prueba tecnica\\technical-test-flyr\\backend\\DcxAirAPI\\DcxAirAPI.Domain\\Common\\DTOs\\ResponseDTO.cs",
+              "RelativeToolTip": "DcxAirAPI.Domain\\Common\\DTOs\\ResponseDTO.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAmAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-20T05:04:26.198Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "ResponseBase.cs",
+              "DocumentMoniker": "C:\\Users\\Manuela Salazar\\Desktop\\Manuela\\prueba tecnica\\technical-test-flyr\\backend\\DcxAirAPI\\DcxAirAPI.Domain\\Common\\DTOs\\ResponseBase.cs",
+              "RelativeDocumentMoniker": "DcxAirAPI.Domain\\Common\\DTOs\\ResponseBase.cs",
+              "ToolTip": "C:\\Users\\Manuela Salazar\\Desktop\\Manuela\\prueba tecnica\\technical-test-flyr\\backend\\DcxAirAPI\\DcxAirAPI.Domain\\Common\\DTOs\\ResponseBase.cs",
+              "RelativeToolTip": "DcxAirAPI.Domain\\Common\\DTOs\\ResponseBase.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-20T05:04:20.975Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "ErrorResponseDTO.cs",
+              "DocumentMoniker": "C:\\Users\\Manuela Salazar\\Desktop\\Manuela\\prueba tecnica\\technical-test-flyr\\backend\\DcxAirAPI\\DcxAirAPI.Domain\\Common\\DTOs\\ErrorResponseDTO.cs",
+              "RelativeDocumentMoniker": "DcxAirAPI.Domain\\Common\\DTOs\\ErrorResponseDTO.cs",
+              "ToolTip": "C:\\Users\\Manuela Salazar\\Desktop\\Manuela\\prueba tecnica\\technical-test-flyr\\backend\\DcxAirAPI\\DcxAirAPI.Domain\\Common\\DTOs\\ErrorResponseDTO.cs",
+              "RelativeToolTip": "DcxAirAPI.Domain\\Common\\DTOs\\ErrorResponseDTO.cs",
+              "ViewState": "AQIAAAEAAAAAAAAAAAAAAAcAAAAEAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-20T05:04:13.6Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 3,
-              "Title": "FlightApplication.cs",
-              "DocumentMoniker": "C:\\Users\\Manuela Salazar\\Desktop\\Manuela\\prueba tecnica\\technical-test-flyr\\backend\\DcxAirAPI\\DcxAirAPI.Application\\Flight\\Logic\\FlightApplication.cs",
-              "RelativeDocumentMoniker": "DcxAirAPI.Application\\Flight\\Logic\\FlightApplication.cs",
-              "ToolTip": "C:\\Users\\Manuela Salazar\\Desktop\\Manuela\\prueba tecnica\\technical-test-flyr\\backend\\DcxAirAPI\\DcxAirAPI.Application\\Flight\\Logic\\FlightApplication.cs",
-              "RelativeToolTip": "DcxAirAPI.Application\\Flight\\Logic\\FlightApplication.cs",
-              "ViewState": "AQIAABIAAAAAAAAAAAAAACYAAAAbAAAA",
+              "Title": "ErrorDTO.cs",
+              "DocumentMoniker": "C:\\Users\\Manuela Salazar\\Desktop\\Manuela\\prueba tecnica\\technical-test-flyr\\backend\\DcxAirAPI\\DcxAirAPI.Domain\\Common\\DTOs\\ErrorDTO.cs",
+              "RelativeDocumentMoniker": "DcxAirAPI.Domain\\Common\\DTOs\\ErrorDTO.cs",
+              "ToolTip": "C:\\Users\\Manuela Salazar\\Desktop\\Manuela\\prueba tecnica\\technical-test-flyr\\backend\\DcxAirAPI\\DcxAirAPI.Domain\\Common\\DTOs\\ErrorDTO.cs",
+              "RelativeToolTip": "DcxAirAPI.Domain\\Common\\DTOs\\ErrorDTO.cs",
+              "ViewState": "AQIAAAEAAAAAAAAAAAAAAAIAAAAZAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-13T16:59:50.891Z",
+              "WhenOpened": "2024-04-20T05:04:07.601Z",
               "EditorCaption": ""
             }
           ]

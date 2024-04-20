@@ -12,39 +12,63 @@ namespace DcxAirAPI.Controllers
     {
         private readonly IFlightApplication _flightApplication;
 
-        public FlightController(IFlightApplication deliveryBusiness)
+        public FlightController(IFlightApplication flightApplication)
         {
-            _flightApplication = deliveryBusiness;
+            _flightApplication = flightApplication;
         }
-
 
         [HttpGet("listFlight")]
         public async Task<ActionResult<ResponseDTO>> ListFlight()
         {
-            var flights = _flightApplication.ListFlight();
-
-            if (flights != null && flights.Any())
+            try
             {
-                return Ok(new ResponseDTO
+                var flights = _flightApplication.ListFlight();
+
+                if (flights != null && flights.Any())
                 {
-                    Data = flights,
-                    Message = "Success",
-                    StatusCode = (int)HttpStatusCode.OK
+                    return Ok(new ResponseDTO
+                    {
+                        Data = flights,
+                        Message = "Success",
+                        StatusCode = (int)HttpStatusCode.OK
+                    });
+                }
+                else
+                {
+                    return NotFound();
+                }
+            }
+            catch (Exception ex)
+            {
+                return StatusCode((int)HttpStatusCode.InternalServerError, new ErrorResponseDTO<ErrorDTO>
+                {
+                    Errors = new ErrorDTO
+                    {
+                        Message = ex.Message,
+                        Code = (int)HttpStatusCode.InternalServerError
+                    }
                 });
             }
-
-            return NotFound();
         }
 
         [HttpGet("searchFlights")]
         public async Task<ActionResult<ResponseDTO>> SearchFlights(string origin, string destination, string currency, string typeJourney)
         {
-            if (string.IsNullOrEmpty(origin) || string.IsNullOrEmpty(destination))
+            try
             {
-                return BadRequest("Origin and destination are required.");
-            }
+                if (string.IsNullOrEmpty(origin) || string.IsNullOrEmpty(destination))
+                {
+                    return BadRequest(new ErrorResponseDTO<ErrorDTO>
+                    {
+                        Errors = new ErrorDTO
+                        {
+                            Message = "Origin and destination are required.",
+                            Code = (int)HttpStatusCode.BadRequest
+                        }
+                    });
+                }
 
-            var data = new Dictionary<string, string>
+                var data = new Dictionary<string, string>
             {
                 { "origin", origin },
                 { "destination", destination },
@@ -52,16 +76,38 @@ namespace DcxAirAPI.Controllers
                 { "typeJourney", typeJourney },
             };
 
-            var response = await _flightApplication.GetJourney(data);
+                var response = await _flightApplication.GetJourney(data);
 
-            if (response.ResponseFlag)
-            {
-                return Ok(response);
+                if (response.ResponseFlag)
+                {
+                    return Ok(new ResponseDTO<Response>
+                    {
+                        Data = response,
+                        Message = "Success",
+                        StatusCode = (int)HttpStatusCode.OK
+                    });
+                }
+                else
+                {
+                    return BadRequest(new ErrorResponseDTO<ErrorDTO>
+                    {
+                        Message = "Error",
+                        StatusCode = (int)HttpStatusCode.BadRequest
+                    });
+                }
             }
-            else
+            catch (Exception ex)
             {
-                return BadRequest(response.Error);
+                return StatusCode((int)HttpStatusCode.InternalServerError, new ErrorResponseDTO<ErrorDTO>
+                {
+                    Errors = new ErrorDTO
+                    {
+                        Message = ex.Message,
+                        Code = (int)HttpStatusCode.InternalServerError
+                    }
+                });
             }
         }
     }
+
 }
